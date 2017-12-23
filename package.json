@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "babel src -d lib",
+    "start": "env NODE_PATH=lib node lib/b.js"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
